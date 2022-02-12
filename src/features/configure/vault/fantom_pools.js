@@ -104,7 +104,7 @@ export const fantomPools = [
   {
     id: 'boo-font-ftm',
     name: 'FONT-FTM LP',
-    token: 'FONT-FTM',
+    token: 'FONT-FTM LP',
     tokenDescription: 'SpookySwap',
     tokenAddress: '0x1C8D76074619BCA749b521343Ce16bb96d9F3614',
     tokenDecimals: 18,
@@ -125,7 +125,7 @@ export const fantomPools = [
       'COMPLEXITY_LOW',
       'BATTLE_TESTED',
       'IL_HIGH',
-      'MCAP_SMALL',
+      'MCAP_MICRO',
       'AUDIT',
       'CONTRACTS_VERIFIED',
     ],
@@ -133,7 +133,8 @@ export const fantomPools = [
     withdrawalFee: '0%',
     addLiquidityUrl:
       'https://spookyswap.finance/add/FTM/0xbbc4a8d076f4b1888fec42581b6fc58d242cf2d5',
-    buyTokenUrl: 'https://spookyswap.finance/swap',
+    buyTokenUrl:
+      'https://spookyswap.finance/swap?outputCurrency=0xbbc4A8d076F4B1888fec42581B6fc58d242CF2D5',
   },
   {
     id: 'spirit-ftm-frax',
