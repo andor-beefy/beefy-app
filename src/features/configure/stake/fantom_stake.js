@@ -35,6 +35,43 @@ export const fantomStakePools = [
   },
 
   {
+    id: 'moo_curve-ftm-geist-ripae',
+    name: 'Ripae.Finance',
+    logo: 'uncategorized/3CRV.png',
+    token: 'mooCurveG3CRV',
+    tokenDecimals: 18,
+    tokenAddress: '0xf710D90A1Bd702dAEa619eEbbe876e7085c2A1df',
+    tokenOracle: 'lps',
+    tokenOracleId: 'curve-ftm-geist',
+    earnedToken: 'PAE',
+    earnedTokenDecimals: 18,
+    earnedTokenAddress: '0x8a41f13a4FaE75ca88B1ee726ee9D52B148b0498',
+    earnContractAddress: '0x7a9797082ca4D661f8B79a4B5b82b1C7DB372E0c',
+    earnContractAbi: govPoolABI,
+    earnedOracle: 'tokens',
+    earnedOracleId: 'PAE',
+    partnership: true,
+    status: 'active',
+    isMooStaked: true,
+    periodFinish: 1646473953,
+    partners: [
+      {
+        logo: 'stake/ripae/logo.png',
+        background: 'stake/ripae/bg.png',
+        text:
+          'Ripae’s mission is to construct a cross-chain algorithmic stablecoin (ASC) economy and connect DeFi networks to make open finance capital efficient and accessible to everyone.\n' +
+          '\n' +
+          'With its experienced team, Ripae Finance will strive to build DeFi’s most convenient, secure, fair, and cost-effective ASC solution in order to help the industry thrive by enabling all participants to work together effortlessly.',
+        website: 'https://ripae.finance/',
+        social: {
+          telegram: 'https://discord.gg/6zq53FB4TS',
+          twitter: 'https://twitter.com/ripaefinance',
+        },
+      },
+    ],
+  },
+
+  {
     id: 'moo_spirit-binspirit-spirit-spirit',
     name: 'SpiritSwap',
     assets: ['binSPIRIT', 'SPIRIT'],

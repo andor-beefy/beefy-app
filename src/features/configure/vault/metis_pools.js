@@ -32,6 +32,42 @@ export const metisPools = [
     withdrawalFee: '0.05%',
     buyTokenUrl:
       'https://netswap.io/#/swap?outputCurrency=0xe6801928061cdbe32ac5ad0634427e140efd05f9',
+    createdAt: 1642600646,
+  },
+  {
+    id: 'tethys-m.usdc-m.usdt',
+    name: 'm.USDC-m.USDT LP',
+    token: 'm.USDC-m.USDT TLP',
+    tokenDescription: 'Tethys',
+    tokenAddress: '0x6c4768d4b3acD4a3fF01F179FaffDaEbe084D12D',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'mooTethysm.USDC - m.USDT',
+    earnedTokenAddress: '0xc674cf138415244041d512Edf1c7943D99dD229F',
+    earnContractAddress: '0xc674cf138415244041d512Edf1c7943D99dD229F',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'tethys-m.usdc-m.usdt',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'Tethys',
+    assets: ['mUSDC', 'mUSDT'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_NONE',
+      'MCAP_LOW',
+      'AUDIT',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    addLiquidityUrl:
+      'https://tethys.finance/pool/add?inputCurrency=0xEA32A96608495e54156Ae48931A7c20f0dcc1a21&outputCurrency=0xbB06DCA3AE6887fAbF931640f67cab3e3a16F4dC',
+    buyTokenUrl:
+      'https://tethys.finance/swap?inputCurrency=METIS&outputCurrency=0x6c4768d4b3acD4a3fF01F179FaffDaEbe084D12D',
+    createdAt: 1644871173,
   },
   {
     id: 'tethys-tethys-metis',
@@ -66,6 +102,7 @@ export const metisPools = [
       'https://tethys.finance/pool/add?inputCurrency=METIS&outputCurrency=0x69fdb77064ec5c84FA2F21072973eB28441F43F3',
     buyTokenUrl:
       'https://tethys.finance/swap?inputCurrency=METIS&outputCurrency=0x69fdb77064ec5c84FA2F21072973eB28441F43F3',
+    createdAt: 1642623428,
   },
   {
     id: 'tethys-m.usdt-metis',
@@ -100,6 +137,7 @@ export const metisPools = [
       'https://tethys.finance/pool/add?inputCurrency=METIS&outputCurrency=0xbB06DCA3AE6887fAbF931640f67cab3e3a16F4dC',
     buyTokenUrl:
       'https://tethys.finance/swap?inputCurrency=METIS&outputCurrency=0xbB06DCA3AE6887fAbF931640f67cab3e3a16F4dC',
+    createdAt: 1642623639,
   },
   {
     id: 'tethys-metis-m.usdc',
@@ -134,6 +172,7 @@ export const metisPools = [
       'https://tethys.finance/pool/add?inputCurrency=METIS&outputCurrency=0xEA32A96608495e54156Ae48931A7c20f0dcc1a21',
     buyTokenUrl:
       'https://tethys.finance/swap?inputCurrency=METIS&outputCurrency=0xEA32A96608495e54156Ae48931A7c20f0dcc1a21',
+    createdAt: 1642623846,
   },
   {
     id: 'tethys-weth-metis',
@@ -168,6 +207,7 @@ export const metisPools = [
       'https://tethys.finance/pool/add?inputCurrency=METIS&outputCurrency=0x420000000000000000000000000000000000000A',
     buyTokenUrl:
       'https://tethys.finance/swap?inputCurrency=METIS&outputCurrency=0x420000000000000000000000000000000000000A',
+    createdAt: 1642624056,
   },
   {
     id: 'netswap-nett-m.usdt',
@@ -202,6 +242,7 @@ export const metisPools = [
       'https://netswap.io/#/add/0x90fe084f877c65e1b577c7b2ea64b8d8dd1ab278/0xbb06dca3ae6887fabf931640f67cab3e3a16f4dc',
     buyTokenUrl:
       'https://netswap.io/#/swap?inputCurrency=0x90fe084f877c65e1b577c7b2ea64b8d8dd1ab278&outputCurrency=0xbb06dca3ae6887fabf931640f67cab3e3a16f4dc',
+    createdAt: 1642356425,
   },
   {
     id: 'netswap-nett-metis',
@@ -236,6 +277,7 @@ export const metisPools = [
       'https://netswap.io/#/add/0x90fe084f877c65e1b577c7b2ea64b8d8dd1ab278/0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000',
     buyTokenUrl:
       'https://netswap.io/#/swap?inputCurrency=0x90fe084f877c65e1b577c7b2ea64b8d8dd1ab278&outputCurrency=0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000',
+    createdAt: 1642362780,
   },
   {
     id: 'netswap-nett-m.usdc',
@@ -270,6 +312,7 @@ export const metisPools = [
       'https://netswap.io/#/add/0x90fe084f877c65e1b577c7b2ea64b8d8dd1ab278/0xEA32A96608495e54156Ae48931A7c20f0dcc1a21',
     buyTokenUrl:
       'https://netswap.io/#/swap?inputCurrency=0x90fe084f877c65e1b577c7b2ea64b8d8dd1ab278&outputCurrency=0xEA32A96608495e54156Ae48931A7c20f0dcc1a21',
+    createdAt: 1642363788,
   },
   {
     id: 'netswap-bnb-nett',
@@ -304,6 +347,7 @@ export const metisPools = [
       'https://netswap.io/#/add/0x90fe084f877c65e1b577c7b2ea64b8d8dd1ab278/0x2692BE44A6E38B698731fDDf417d060f0d20A0cB',
     buyTokenUrl:
       'https://netswap.io/#/swap?inputCurrency=0x90fe084f877c65e1b577c7b2ea64b8d8dd1ab278&outputCurrency=0x2692BE44A6E38B698731fDDf417d060f0d20A0cB',
+    createdAt: 1642364144,
   },
   {
     id: 'netswap-weth-nett',
@@ -338,6 +382,7 @@ export const metisPools = [
       'https://netswap.io/#/add/0x90fe084f877c65e1b577c7b2ea64b8d8dd1ab278/0x420000000000000000000000000000000000000A',
     buyTokenUrl:
       'https://netswap.io/#/swap?inputCurrency=0x90fe084f877c65e1b577c7b2ea64b8d8dd1ab278&outputCurrency=0x420000000000000000000000000000000000000A',
+    createdAt: 1642363913,
   },
   {
     id: 'netswap-weth-metis',
@@ -372,6 +417,7 @@ export const metisPools = [
       'https://netswap.io/#/add/0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000/0x420000000000000000000000000000000000000A',
     buyTokenUrl:
       'https://netswap.io/#/swap?inputCurrency=0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000&outputCurrency=0x420000000000000000000000000000000000000A',
+    createdAt: 1642364450,
   },
   {
     id: 'netswap-m.usdt-metis',
@@ -406,6 +452,7 @@ export const metisPools = [
       'https://netswap.io/#/add/0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000/0xbB06DCA3AE6887fAbF931640f67cab3e3a16F4dC',
     buyTokenUrl:
       'https://netswap.io/#/swap?inputCurrency=0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000&outputCurrency=0xbB06DCA3AE6887fAbF931640f67cab3e3a16F4dC',
+    createdAt: 1642365041,
   },
   {
     id: 'netswap-metis-m.usdc',
@@ -440,6 +487,7 @@ export const metisPools = [
       'https://netswap.io/#/add/0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000/0xEA32A96608495e54156Ae48931A7c20f0dcc1a21',
     buyTokenUrl:
       'https://netswap.io/#/swap?inputCurrency=0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000&outputCurrency=0xEA32A96608495e54156Ae48931A7c20f0dcc1a21',
+    createdAt: 1642365277,
   },
   {
     id: 'netswap-weth-m.usdt',
@@ -474,6 +522,7 @@ export const metisPools = [
       'https://netswap.io/#/add/0x420000000000000000000000000000000000000A/0xbB06DCA3AE6887fAbF931640f67cab3e3a16F4dC',
     buyTokenUrl:
       'https://netswap.io/#/swap?inputCurrency=0x420000000000000000000000000000000000000A&outputCurrency=0xbB06DCA3AE6887fAbF931640f67cab3e3a16F4dC',
+    createdAt: 1642365495,
   },
   {
     id: 'netswap-weth-m.usdc',
@@ -508,6 +557,7 @@ export const metisPools = [
       'https://netswap.io/#/add/0x420000000000000000000000000000000000000A/0xEA32A96608495e54156Ae48931A7c20f0dcc1a21',
     buyTokenUrl:
       'https://netswap.io/#/swap?inputCurrency=0x420000000000000000000000000000000000000A&outputCurrency=0xEA32A96608495e54156Ae48931A7c20f0dcc1a21',
+    createdAt: 1642365777,
   },
   {
     id: 'netswap-m.usdt-m.usdc',
@@ -542,5 +592,6 @@ export const metisPools = [
       'https://netswap.io/#/add/0xbB06DCA3AE6887fAbF931640f67cab3e3a16F4dC/0xEA32A96608495e54156Ae48931A7c20f0dcc1a21',
     buyTokenUrl:
       'https://netswap.io/#/swap?inputCurrency=0xbB06DCA3AE6887fAbF931640f67cab3e3a16F4dC&outputCurrency=0xEA32A96608495e54156Ae48931A7c20f0dcc1a21',
+    createdAt: 1642365937,
   },
 ];
