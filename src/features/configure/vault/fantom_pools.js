@@ -804,7 +804,9 @@ export const fantomPools = [
       'https://spookyswap.finance/add/FTM/0xbbc4a8d076f4b1888fec42581b6fc58d242cf2d5',
     buyTokenUrl:
       'https://spookyswap.finance/swap?outputCurrency=0xbbc4A8d076F4B1888fec42581B6fc58d242CF2D5',
+    createdAt: 1644614666,
   },
+
   {
     id: 'spirit-ftm-frax',
     name: 'FRAX-FTM LP',
